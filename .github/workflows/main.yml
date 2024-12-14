@@ -40,4 +40,5 @@ jobs:
                   file: ./src/Dockerfile
                   push: true
                   tags: |
-                      fredon99/conversao-temperatura:v1
+                      fredon99/conversao-temperatura:${{github.run_number}}
+                      fredon99/conversao-temperatura:latest
