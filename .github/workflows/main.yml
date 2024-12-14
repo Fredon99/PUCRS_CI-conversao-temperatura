@@ -23,4 +23,15 @@ jobs:
                   cd src;
                   npm install -g mocha;
                   npm install
-                  
+
+            - name: Execucao do teste
+              run: mocha src/test/convert.js
+
+            - name: Construcao da imagem docker
+              uses: docker/build-push-action@v6.10.0
+              with:
+                  context: src
+                  file: src/Dockerfile
+                  push: true
+                  tags: |
+                      fredon99/conversao-temperatura:v1
