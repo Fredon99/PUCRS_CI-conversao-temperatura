@@ -4,7 +4,7 @@
 
 # conversao-temperatura
 
-* Rodar Gerenciador de Pacotes: NPM 
+* Instalação das dependências
 ```
 Entrar no diretório src/
 └──> npm install
