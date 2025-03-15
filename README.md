@@ -51,6 +51,8 @@ fd435a6000a0: Pushed
 v1: digest: sha256:d3883f770e0daeef418b9b5becb00f56f6acfc6e40e43559e3c2234a4cafa835 size: 3050
 ```
 
+* Este respositório possui um workflow para Integração Contínua, que pode ser visualizado através do link. [:link:](https://github.com/Fredon99/PUCRS_CI-conversao-temperatura/blob/master/.github/WORKFLOW-README.md)
+
 * Docker Hub
 
 [DockerHub](https://hub.docker.com/repository/docker/orbite82/conversao-temperatura-2)
